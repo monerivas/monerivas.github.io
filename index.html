@@ -13,8 +13,46 @@
 </head>
 
 <body>
-    <header>
-        <ul id="slide-out" class="side-nav">
+    <header class="container-fluid">
+        <div class="row navbar-fixed hide-on-med-and-down">
+            <nav class="col s12">
+                <div class="nav-wrapper">
+                    <ul id="nav-mobile" class="">
+
+                        <li class="col m1 offset-m4"><a href="#about-me">Sobre mí</a></li>
+                        <li class="col m1"><a href="#services">Servicios</a></li>
+                        <li class="col m1"><a href="#projects">Proyectos</a></li>
+                        <li class="col m1"><a href="#contact">Contacto</a></li>
+
+                    </ul>
+                </div>
+            </nav>
+        </div>
+        <div class="row">
+            <div class="col s2 offset-s10">
+                <li class="col m1 push-m3 hide-on-large-only"><span onclick="openNav()"><i class="medium material-icons white-text dropdown-button col s1" data-activates="opcsMenu">menu</i></span></li>
+            </div>
+        </div>
+
+
+
+        <!-- The overlay -->
+        <div id="myNav" class="overlay">
+
+            <!-- Button to close the overlay navigation -->
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+            <!-- Overlay content -->
+            <div class="overlay-content">
+                <a href="#about-me">Sobre mí</a>
+                <a href="#services">Servicios</a>
+                <a href="#projects">Proyectos</a>
+                <a href="#contact">Contacto</a>
+            </div>
+
+        </div>
+        <!------SideBar------>
+        <!--        <ul id="slide-out" class="side-nav">
             <li>
                 <div class="userView">
                     <div class="background">
@@ -33,11 +71,16 @@
             <li><a class="subheader">Subheader</a></li>
             <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
         </ul>
-        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-
+        <a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>-->
+        <!-------Fin SideBar------->
     </header>
 
-    <main>
+    <main id="about-me">
+        <section class="row">
+            <di class="col m6 offset-m6 s12">
+                ABOUT ME
+            </di>
+        </section>
     </main>
 
     <section id="services" class="row">
@@ -47,14 +90,14 @@
 
         <div class="col m2 offset-m1 s12"><img class="responsive-img" src="https://dummyimage.com/600x500/575c7a/ffffff&text=Mobile+l+desktop+-" alt=""></div>
     </section>
-
-    <section id="Projects" class="row">
+    <!-------Inicio Projects------->
+    <section id="projects" class="row">
         <div class="row">
             <div class=" tarjetas col m4 offset-m1 s12">
 
                 <div class="card sticky-action">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="https://dummyimage.com/300x300/46c242/ffffff&text=Projetc">
+                        <img class="activator" src="https://dummyimage.com/300x300/46c242/ffffff&text=project">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -74,7 +117,7 @@
             <div class=" tarjetas col m4 offset-m2 s12">
                 <div class="card sticky-action">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="https://dummyimage.com/300x300/46c242/ffffff&text=Projetc">
+                        <img class="activator" src="https://dummyimage.com/300x300/46c242/ffffff&text=project">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -93,7 +136,7 @@
             <div class=" tarjetas col m4 offset-m4 s12">
                 <div class="card sticky-action">
                     <div class="card-image waves-effect waves-block waves-light">
-                        <img class="activator" src="https://dummyimage.com/300x300/46c242/ffffff&text=Projetc">
+                        <img class="activator" src="https://dummyimage.com/300x300/46c242/ffffff&text=project">
                     </div>
                     <div class="card-content">
                         <span class="card-title activator grey-text text-darken-4">Card Title<i class="material-icons right">more_vert</i></span>
@@ -111,9 +154,36 @@
 
     </section>
 
+    <section id="contact" class="container-fluid">
 
-    <footer></footer>
+    </section>
 
+
+    <footer class="page-footer">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2014 Copyright Text
+                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+        </div>
+    </footer>
 
     <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
     <script type="text/javascript" src="js/materialize.min.js"></script>
