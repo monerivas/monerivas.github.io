@@ -8,6 +8,10 @@
     margin-bottom: 0;
 }
 
+.mt-5{
+    margin-top: 5%;
+}
+
 body {
     background-color: #384651;
 }
@@ -146,8 +150,25 @@ body {
 #skills h3{
     font-size: 4vh;    
 }
+
+#skills h4{
+    font-size: 3vh;
+    
+}
+
 #skills h5{
     font-size: 2vh;    
+}
+
+.habilidadesBlandas div{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+}
+
+.habilidadesTecnicas div{
+    margin-top: 2.5%;
+    margin-bottom: 2.5%;
+
 }
 
 /*------Fin skills----*/
