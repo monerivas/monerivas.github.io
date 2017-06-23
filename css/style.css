@@ -12,6 +12,14 @@ body {
     background-color: #384651;
 }
 
+/*
+*{
+  margin: 0;
+  padding: 0;
+  boz-sizing: border-box;
+  font-family: "Open Sans", sans-serif
+}*/
+
 
 /*-----Clases generales---------*/
 
@@ -43,9 +51,13 @@ body {
 }
 /*----Fin Paleta de colores----*/
 
+/*------Inicio Kind of heros----------*/
+
+#skills{}
+/*------Fin Kind of heros----------*/
+
 
 /*----Inicio Side Bar--*/
-
 #slide-out {
     background-color: #726d6d;
 }
@@ -53,21 +65,76 @@ body {
 .side-nav li>a:hover {
     background-color: #fff;
 }
-
-
 /*----Fin  Side Bar--*/
+
+
 
 
 /*-------Inicio Parallax--------*/
 
 .parallax-container {
-    height: 50vh;
+    height: 60vh;
 }
 
 .parallax-img {
     display: block;
     transform: translate3d -10%, 0px, 0px;
 }
-
-
 /*-------Fin Parallax--------*/
+
+
+/*------Inicio typing about me----*/
+.text-js{
+  opacity: 0;
+}
+.cursor{
+  display: block;
+  position: absolute;
+  height: 50%;
+  top: 1vh;
+  right: -5px;
+  width: 2px;
+  /* Change colour of Cursor Here */
+  background-color: white;
+  z-index: 1;
+  animation: flash 0.5s none infinite alternate;
+}
+@keyframes flash{
+  0%{
+    opacity: 1;
+  }
+  100%{
+    opacity: 0;
+  }
+}
+
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+
+/*Text Can be styled just like normal*/
+.headline{
+  margin: 2%;
+  color: whitesmoke;
+  text-align: center;
+    
+  h1{
+    letter-spacing: 1.6px;
+    font-weight: 30;
+  }
+}
+
+.text-js{
+    font-size: 10vh;
+    background-color: rgb(0, 0, 0, 0.5);
+}
+/*------Fin typing about me----*/
+
+
+
+
+
+
+
+
+
+
