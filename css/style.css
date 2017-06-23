@@ -1,37 +1,73 @@
 /*-----Clases generales---------*/
-.fixed{
+
+.fixed {
     position: fixed;
 }
 
-
-.mb-0{
+.mb-0 {
     margin-bottom: 0;
 }
+
+body {
+    background-color: #384651;
+}
+
+
 /*-----Clases generales---------*/
 
-body{
-    background-color: #ffffff;
+
+/*----Inicio Paleta de colores----*/
+.color1 {
+    background-color: #101C24;
+    /*Casi negro*/
 }
 
-#slide-out{
+.color2 {
+    background-color: #292B2A;
+    /*Gris oscuro*/
+}
+
+.color3 {
+    background-color: #1F333D;
+    /*Azul oscuro*/
+}
+
+.color4 {
+    background-color: #384651;
+    /*AzulGrisaceo oscuro*/
+}
+
+.color5 {
+    background-color: #6A7E85;
+    /*AzulGrisaceo claro*/
+}
+/*----Fin Paleta de colores----*/
+
+
+/*----Inicio Side Bar--*/
+
+#slide-out {
     background-color: #726d6d;
 }
+
+.side-nav li>a:hover {
+    background-color: #fff;
+}
+
+
+/*----Fin  Side Bar--*/
 
 
 /*-------Inicio Parallax--------*/
 
-
 .parallax-container {
-    height: 50vh; 
+    height: 50vh;
 }
 
-.parallax-img{
-    display: block; 
+.parallax-img {
+    display: block;
     transform: translate3d -10%, 0px, 0px;
-
-    
 }
+
+
 /*-------Fin Parallax--------*/
-
-
-
