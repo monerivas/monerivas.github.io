@@ -53,16 +53,22 @@ body {
 
 /*------Inicio Kind of heros----------*/
 
-#skills{}
+.seccionContenido{
+    height: 100vh;
+}
 /*------Fin Kind of heros----------*/
 
 
 /*----Inicio Side Bar--*/
-#slide-out {
-    background-color: #726d6d;
+.side-nav {
+    
+    background-color: #101C24;
 }
-
+.side-nav li>a{
+   color:whitesmoke; 
+}
 .side-nav li>a:hover {
+    color:#101C24;
     background-color: #fff;
 }
 /*----Fin  Side Bar--*/
@@ -124,12 +130,39 @@ body {
 }
 
 .text-js{
-    font-size: 10vh;
+    font-size: 6vh;
     background-color: rgb(0, 0, 0, 0.5);
 }
 /*------Fin typing about me----*/
 
 
+
+/*------Inicio skills----*/
+#skills{
+    color:#b0b4b5;
+    
+    
+}
+#skills h3{
+    font-size: 4vh;    
+}
+#skills h5{
+    font-size: 2vh;    
+}
+
+/*------Fin skills----*/
+
+
+
+/*------Inicio proyectos----*/
+
+.imgProyecto{
+    height: 62vh;
+}
+
+
+
+/*------Fin proyectos----*/
 
 
 
