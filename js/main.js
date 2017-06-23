@@ -15,7 +15,6 @@ $('.button-collapse').sideNav({
 
 
 /*-------Inicio Parallax--------*/
-
 $(document).ready(function () {
     $('.parallax').parallax();
 });

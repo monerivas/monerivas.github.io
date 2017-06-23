@@ -14,13 +14,15 @@
 
 <body>
     <header class="container-fluid">
+
+        <!------Inicio NavBar Desktop------->
         <div class="row navbar-fixed hide-on-med-and-down">
             <nav class="col s12">
                 <div class="nav-wrapper">
                     <ul id="nav-mobile" class="">
 
-                        <li class="col m1 offset-m4"><a href="#about-me">Sobre mí</a></li>
-                        <li class="col m1"><a href="#services">Servicios</a></li>
+                        <li class="col m2 offset-m3 center"><a href="#about-me">Sobre mí</a></li>
+                        <li class="col m1"><a href="#skills">Servicios</a></li>
                         <li class="col m1"><a href="#projects">Proyectos</a></li>
                         <li class="col m1"><a href="#contact">Contacto</a></li>
 
@@ -28,59 +30,66 @@
                 </div>
             </nav>
         </div>
-        <div class="row">
-            <div class="col s2 offset-s10">
-                <span class="col m1 push-m3 hide-on-large-only"><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
-                </span>
 
-            </div>
+        <!------Fin NavBar Desktop-------->
+
+        <!-------Inicio NavBar Mobile---------->
+        <div class="navbar-fixed hide-on-large-only">
+            <nav>
+                <div class="nav-wrapper">
+                    <a href="#about-me" class="brand-logo">LOGO</a>
+                    <span class="col m1 push-m3 hide-on-large-only"><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
+                </span>
+                </div>
+            </nav>
         </div>
+
+        <!-------Inicio NavBar Mobile---------->
+
         <!------SideBar------>
         <ul id="slide-out" class="side-nav">
             <li>
                 <div class="userView">
                     <div class="background">
-                        <img src="images/office.jpg">
+                        <img src="LOGO mio">
                     </div>
-                    <a href="#!user"><img class="circle" src="images/yuna.jpg"></a>
-                    <a href="#!name"><span class="white-text name">John Doe</span></a>
-                    <a href="#!email"><span class="white-text email">jdandturk@gmail.com</span></a>
+                    <a href="#!user"><img class="circle responsive-img" src="assets/img/mone.jpg"></a>
+                    <a href="#!about-me"><span class="white-text name">Mone Rivas</span></a>
+                    <a href="mailto:mone.rivas.o@gmail.com"><span class="white-text email">mone.rivas.o@gmail.com</span></a>
                 </div>
             </li>
-            <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
-            <li><a href="#!">Second Link</a></li>
+            <li><a href="#about-me">Sobre mí</a></li>
+            <li><a href="#skills">Servicios</a></li>
+            <li><a href="#projectS">Proyectos</a></li>
+            <li><a href="#DRIVE">CV</a></li>
             <li>
                 <div class="divider"></div>
             </li>
-            <li><a class="subheader">Subheader</a></li>
-            <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+            <li><a class="subheader">Contacto</a></li>
+            <li><a class="waves-effect" href="#contact">Contactos</a></li>
         </ul>
         <!-------Fin SideBar------->
-
-        <!----------Inicio PARALLAX-------->
-        <div class="parallax-container">
-            <div class="parallax"><img src="assets/img/imgParallax/lapMed.jpeg"></div>
-        </div>
-        <!----------Fin PARALLAX-------->
-
     </header>
 
 
-
-
-
-
-
-
     <main id="about-me">
-        <section class="row">
-            <di class="col m6 offset-m6 s12">
-                ABOUT ME
-            </di>
+        <!----------Inicio PARALLAX-------->
+        <section class="parallax-container">
+            <div class="row">
+                <div class="col s12 parallax">
+                    <img class="responsive-img parallax-img" src="assets/img/imgParallax/lapMed.jpeg">
+                </div>
+            </div>
         </section>
+        
+<!--
+        <img class="responsive-img" src="assets/img/imgParallax/lapMed.jpeg" style="display: block; transform: translate3d(-50%, 0px, 0px);">
+-->
+        <!----------Fin PARALLAX-------->
+
     </main>
 
-    <section id="services" class="row">
+    <section id="skills" class="row">
         <div class="col m2 offset-m2 s12"><img class="responsive-img" src="https://dummyimage.com/600x500/575c7a/ffffff&text=Mobile+l+desktop+-" alt=""></div>
 
         <div class="col m3 offset-m1 s12"><img class="responsive-img" src="https://dummyimage.com/600x500/575c7a/ffffff&text=Mobile+l+desktop+-" alt=""></div>
@@ -163,7 +172,7 @@
                     <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/montserratrivas" target="_blank">Linkedin <p><img src="assets/img/iconosContacto/linkedin-4-32.png" alt="Linkedin"></p> </a>
                 </div>
                 <div class="col m4 offset-m1 s8 offset-s2 center">
-                    <a class="grey-text text-lighten-3" href="#!">mone.rivas.o@gmail.com <p><img src="assets/img/iconosContacto/mail-32.png" alt="gmail"></p></a>
+                    <a class="grey-text text-lighten-3" href="mailto:mone.rivas.o@gmail.com">mone.rivas.o@gmail.com <p><img src="assets/img/iconosContacto/mail-32.png" alt="gmail"></p></a>
                 </div>
                 <div class="col m2 offset-m1 s8 offset-s2 center">
                     <a class="grey-text text-lighten-3" href="https://github.com/monerivas" target="_blank">GitHub <p><img src="assets/img/iconosContacto/GitHub-Mark-Light-32px.png" alt="GitHub"></p> </a>

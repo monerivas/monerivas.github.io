@@ -1,8 +1,37 @@
-/*-------Inicio Parallax--------*/
-
-.parallax-container {
-    height: 50 vh;
+/*-----Clases generales---------*/
+.fixed{
+    position: fixed;
 }
 
 
+.mb-0{
+    margin-bottom: 0;
+}
+/*-----Clases generales---------*/
+
+body{
+    background-color: #ffffff;
+}
+
+#slide-out{
+    background-color: #726d6d;
+}
+
+
+/*-------Inicio Parallax--------*/
+
+
+.parallax-container {
+    height: 50vh; 
+}
+
+.parallax-img{
+    display: block; 
+    transform: translate3d -10%, 0px, 0px;
+
+    
+}
 /*-------Fin Parallax--------*/
+
+
+
