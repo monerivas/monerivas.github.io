@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -17,7 +17,7 @@
 
         <!------Inicio NavBar Desktop------->
         <div class="row navbar-fixed hide-on-med-and-down">
-            <nav class="col s12 color1">
+            <nav class="col s12 cAzulMarino">
                 <div class="nav-wrapper">
                     <ul id="nav-mobile" class="">
 
@@ -34,7 +34,7 @@
 
         <!-------Inicio NavBar Mobile---------->
         <div class="navbar-fixed hide-on-large-only">
-            <nav class="color1">
+            <nav class="cAzulMarino">
                 <div class="nav-wrapper">
                     <span class="col m1 push-m3 hide-on-large-only"><a href="#" data-activates="slide-out" class="button-collapse"><i class="material-icons">menu</i></a>
                 </span>
@@ -46,7 +46,7 @@
 
         <!------SideBar------>
         <ul id="slide-out" class="side-nav">
-            <li class="color1">
+            <li class="cAzulMarino">
                 <div class="userView">
                     <a href="#!user"><img class="circle responsive-img" src="assets/img/mone.jpg"></a>
                     <a href="#!about-me"><span class="white-text name">Mone Rivas</span></a>
@@ -67,29 +67,23 @@
     </header>
 
 
-    <main id="about-me" class="container-fluid">
+    <section id="about-me" class="container-fluid seccionContenido">
         <!----------Inicio PARALLAX-------->
-        <section class="parallax-container">
-            <div class="row">
-                <div class="col s12 parallax">
-                    <img class="responsive-img parallax-img" src="assets/img/imgParallax/lapLibreta2Med.jpg">
-                    <div class="type-js headline">
-                        <!--Typing-->
-                        <h1 class="text-js">Mone Rivas, Desarrolladora Web Front-End y psicóloga, orientada a UX UI</h1>
-                    </div>
-                    <!--Typing-->
-                </div>
-            </div>
-            <!--<img class="responsive-img" src="assets/img/imgParallax/lapMed.jpeg" style="display: block; transform: translate3d(-50%, 0px, 0px);">-->
 
-        </section>
+
+        <div class="parallax">
+            <div class="type-js headline pdt-40 "><!--Typing-->                
+                <h1 class="text-js ">Mone Rivas, Desarrolladora Web Front-End y psicóloga, orientada a UX UI</h1>
+            </div> <!--Typing-->
+        </div>
         <!----------Fin PARALLAX-------->
-    </main>
+
+    </section>
 
 
 
     <!------Inicio Habilidades------->
-    <section id="skills" class="container-fluid seccionContenido mt-5">
+    <section id="skills" class="container-fluid seccionContenido mt-5 cAzulMarinoLighter">
         <section class="row habilidadesTecnicas">
 
             <section class="col s12 center">
@@ -169,88 +163,87 @@
     <!-------Inicio Projects------->
     <section id="projects" class="contariner-fluid">
         <section class="row seccionContenido">
-            <div class="row">
-                <div class="col s12 center">
-                    <h3>Proyectos</h3>
-                </div>
-                <div class=" tarjetas col m3 s12">
+            <div class="col s12 center">
+                <h3>Proyectos</h3>
+            </div>
+            <div class=" tarjetas col m3 s12">
 
-                    <div class="card sticky-action">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator responsive-img imgProyecto" src="assets/img/imgProyectos/labcar.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">LabCar<i class="material-icons right">more_vert</i></span>
-                            <div class="card-action">
-                                <p><a href="https://monerivas.github.io/Labcar-Mone/" target="_blank">Mira este proyecto</a></p>
-                            </div>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">LabCar<i class="material-icons right">close</i></span>
-                            <p>Maquetación desktop de un sitio web de transporte privado, similar a Uber o Lyft. Utilización de HTML5, CSS3, JS, BootSrtrap.</p>
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img imgProyecto" src="assets/img/imgProyectos/labcar.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">LabCar<i class="material-icons right">more_vert</i></span>
+                        <div class="card-action">
+                            <p><a href="https://monerivas.github.io/Labcar-Mone/" target="_blank">Mira este proyecto</a></p>
                         </div>
                     </div>
-                </div>
-
-
-                <div class=" tarjetas col m3 s12">
-                    <div class="card sticky-action">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator responsive-img imgProyecto" src="assets/img/imgProyectos/pokemon.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Pokedex<i class="material-icons right">more_vert</i></span>
-                            <div class="card-action">
-                                <p><a href="https://monerivas.github.io/pokedexAJAX/" target="_blank">Mira este proyecto</a></p>
-                            </div>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Pokedex<i class="material-icons right">close</i></span>
-                            <p>Sitio web que muestra un catálogo de Pokemones y características individuales. Utilización de HTML5, CSS3, Materialize, JS, jQuery, AJAX, consumo de APIS.</p>
-                        </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">LabCar<i class="material-icons right">close</i></span>
+                        <p>Maquetación desktop de un sitio web de transporte privado, similar a Uber o Lyft. Utilización de HTML5, CSS3, JS, BootSrtrap.</p>
                     </div>
                 </div>
+            </div>
 
-                <div class=" tarjetas col m3 s12">
-                    <div class="card sticky-action">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator responsive-img imgProyecto" src="assets/img/imgProyectos/alertate.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Alertate<i class="material-icons right">more_vert</i></span>
-                            <div class="card-action">
-                                <p><a href="https://monerivas.github.io/Alertate/" target="_blank">Mira este proyecto</a></p>
-                            </div>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Alertate<i class="material-icons right">close</i></span>
-                            <p>Proyecto colaborativo de una aplicación móvil que permite el mapeo de las zonas de mayor acoso a las mujeres en la CDMX. Utilización de HTML5 CSS3, Materialize, JS, jQuery, AJAX, consumo de APIS de geolocalización </p>
+
+            <div class=" tarjetas col m3 s12">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img imgProyecto" src="assets/img/imgProyectos/pokemon.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Pokedex<i class="material-icons right">more_vert</i></span>
+                        <div class="card-action">
+                            <p><a href="https://monerivas.github.io/pokedexAJAX/" target="_blank">Mira este proyecto</a></p>
                         </div>
                     </div>
-                </div>
-                <div class=" tarjetas col m3 s12">
-                    <div class="card sticky-action">
-                        <div class="card-image waves-effect waves-block waves-light">
-                            <img class="activator responsive-img imgProyecto" src="assets/img/imgProyectos/yulp.png">
-                        </div>
-                        <div class="card-content">
-                            <span class="card-title activator grey-text text-darken-4">Yulp<i class="material-icons right">more_vert</i></span>
-                            <div class="card-action">
-                                <p><a href="https://monerivas.github.io/yulpAppComidaGeolocalizacion/ " target="_blank">Mira este proyecto</a></p>
-                            </div>
-                        </div>
-                        <div class="card-reveal">
-                            <span class="card-title grey-text text-darken-4">Yulp<i class="material-icons right">close</i></span>
-                            <p>Proyecto colaborativo de una aplicación móvil que permite el mapeo de las zonas de mayor acoso a las mujeres en la CDMX. Utilización de HTML5 CSS3, Materialize, JS, jQuery, AJAX, consumo de APIS de geolocalización </p>
-                        </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Pokedex<i class="material-icons right">close</i></span>
+                        <p>Sitio web que muestra un catálogo de Pokemones y características individuales. Utilización de HTML5, CSS3, Materialize, JS, jQuery, AJAX, consumo de APIS.</p>
                     </div>
                 </div>
+            </div>
+
+            <div class=" tarjetas col m3 s12">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img imgProyecto" src="assets/img/imgProyectos/alertate.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Alertate<i class="material-icons right">more_vert</i></span>
+                        <div class="card-action">
+                            <p><a href="https://monerivas.github.io/Alertate/" target="_blank">Mira este proyecto</a></p>
+                        </div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Alertate<i class="material-icons right">close</i></span>
+                        <p>Proyecto colaborativo de una aplicación móvil que permite el mapeo de las zonas de mayor acoso a las mujeres en la CDMX. Utilización de HTML5 CSS3, Materialize, JS, jQuery, AJAX, consumo de APIS de geolocalización </p>
+                    </div>
+                </div>
+            </div>
+            <div class=" tarjetas col m3 s12">
+                <div class="card sticky-action">
+                    <div class="card-image waves-effect waves-block waves-light">
+                        <img class="activator responsive-img imgProyecto" src="assets/img/imgProyectos/yulp.png">
+                    </div>
+                    <div class="card-content">
+                        <span class="card-title activator grey-text text-darken-4">Yulp<i class="material-icons right">more_vert</i></span>
+                        <div class="card-action">
+                            <p><a href="https://monerivas.github.io/yulpAppComidaGeolocalizacion/ " target="_blank">Mira este proyecto</a></p>
+                        </div>
+                    </div>
+                    <div class="card-reveal">
+                        <span class="card-title grey-text text-darken-4">Yulp<i class="material-icons right">close</i></span>
+                        <p>Proyecto colaborativo de una aplicación móvil que permite el mapeo de las zonas de mayor acoso a las mujeres en la CDMX. Utilización de HTML5 CSS3, Materialize, JS, jQuery, AJAX, consumo de APIS de geolocalización </p>
+                    </div>
+                </div>
+            </div>
         </section>
     </section>
 
 
-    <footer id="contact" class="page-footer color1">
-        <div class="container-fluid">
+    <footer id="contact" class="page-footer cAzulMarino">
+        <div class="container-fluid pdt-20">
             <div class="row">
                 <div class="col m2 offset-m1 s8 offset-s2 center">
                     <a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/montserratrivas" target="_blank">Linkedin <p><img src="assets/img/iconosContacto/linkedin-4-32.png" alt="Linkedin"></p> </a>

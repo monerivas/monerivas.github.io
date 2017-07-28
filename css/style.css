@@ -1,5 +1,14 @@
 /*-----Clases generales---------*/
 
+body{
+    background-color: #DADBDB;
+    height: 100%;
+
+}
+.seccionContenido {
+    height: 100vh;
+}
+
 .fixed {
     position: fixed;
 }
@@ -8,13 +17,19 @@
     margin-bottom: 0;
 }
 
-.mt-5{
+.mt-5 {
     margin-top: 5%;
 }
 
-body {
-    background-color: #384651;
+.pdt-20{
+    padding: 20vh 0;
 }
+.pdt-40{
+    padding: 40vh 0;
+}
+
+
+
 
 /*
 *{
@@ -29,6 +44,37 @@ body {
 
 
 /*----Inicio Paleta de colores----*/
+
+
+/*Grises*/
+.cGrisBlanco {
+    background-color: #DADBDB;
+}
+
+.cGrisPalido {
+    background-color: #777777;
+}
+
+.cGrisOscuro {
+    Background-color: #131313;
+}
+/*Grises*/
+
+
+/*Azules*/
+.cAzulMarino{
+    background-color: #000C2F;
+}
+.cAzulMarinoLighter{
+    background-color: #001647;
+}
+
+.cAzulFondo{
+    background-color: #202C44;
+}
+
+/*Azules*/
+
 .color1 {
     background-color: #101C24;
     /*Casi negro*/
@@ -53,142 +99,141 @@ body {
     background-color: #6A7E85;
     /*AzulGrisaceo claro*/
 }
+
+
 /*----Fin Paleta de colores----*/
 
-/*------Inicio Kind of heros----------*/
 
-.seccionContenido{
-    height: 100vh;
-}
-/*------Fin Kind of heros----------*/
 
 
 /*----Inicio Side Bar--*/
+
 .side-nav {
-    
-    background-color: #101C24;
+    background-color: #000C2F;
 }
-.side-nav li>a{
-   color:whitesmoke; 
+
+.side-nav li>a {
+    color: whitesmoke;
 }
+
 .side-nav li>a:hover {
-    color:#101C24;
+    color: #101C24;
     background-color: #fff;
 }
+
+
 /*----Fin  Side Bar--*/
 
 
 
-
-/*-------Inicio Parallax--------*/
-
-.parallax-container {
-    height: 60vh;
+/*-------Inicio Parallax handmade--------*/
+.parallax { 
+    /* La imagen a usar */
+    background-image: url("../assets/img/imgParallax/lapLibreta2Med.jpg");
+    height: 100%; 
+    
+    /* efecto scroll*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+/*-------Fin Parallax handmade--------*/
 
-.parallax-img {
-    display: block;
-    transform: translate3d -10%, 0px, 0px;
-}
-/*-------Fin Parallax--------*/
 
 
 /*------Inicio typing about me----*/
-.text-js{
-  opacity: 0;
-}
-.cursor{
-  display: block;
-  position: absolute;
-  height: 50%;
-  top: 1vh;
-  right: -5px;
-  width: 2px;
-  /* Change colour of Cursor Here */
-  background-color: white;
-  z-index: 1;
-  animation: flash 0.5s none infinite alternate;
-}
-@keyframes flash{
-  0%{
-    opacity: 1;
-  }
-  100%{
+
+.text-js {
     opacity: 0;
-  }
+}
+
+/*
+.cursor {
+    display: block;
+    position: absolute;
+    height: 10%;
+    top: 1vh;
+    right: -5px;
+    width: 2px;
+    background-color: white;
+    z-index: 1;
+    animation: flash 0.5s none infinite alternate;
+}*/
+
+@keyframes flash {
+    0% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
-
 /*Text Can be styled just like normal*/
-.headline{
-  margin: 2%;
-  color: whitesmoke;
-  text-align: center;
-    
-  h1{
-    letter-spacing: 1.6px;
-    font-weight: 30;
-  }
+
+.headline {
+    color: whitesmoke;
+    text-align: center;
+    h1 {
+        letter-spacing: 1.6px;
+        font-weight: 30;
+    }
 }
 
-.text-js{
+.text-js {
     font-size: 6vh;
     background-color: rgb(0, 0, 0, 0.5);
 }
+
+
 /*------Fin typing about me----*/
 
 
-
 /*------Inicio skills----*/
-#skills{
-    color:#b0b4b5;
-    
-    
-}
-#skills h3{
-    font-size: 4vh;    
+
+#skills {
+    color: #b0b4b5;
 }
 
-#skills h4{
+#skills h3 {
+    font-size: 4vh;
+}
+
+#skills h4 {
     font-size: 3vh;
-    
 }
 
-#skills h5{
-    font-size: 2vh;    
+#skills h5 {
+    font-size: 2vh;
 }
 
-.habilidadesBlandas div{
+.habilidadesBlandas div {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
 }
 
-.habilidadesTecnicas div{
+.habilidadesTecnicas div {
     margin-top: 2.5%;
     margin-bottom: 2.5%;
-
 }
+
 
 /*------Fin skills----*/
 
 
-
 /*------Inicio proyectos----*/
 
-.imgProyecto{
+.imgProyecto {
     height: 62vh;
 }
-
-
-
 /*------Fin proyectos----*/
 
 
 
 
-
-
-
+/*------Inicio Footer----*/
+/*------Fin Footer-------*/
 
