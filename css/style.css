@@ -21,24 +21,17 @@ body{
     margin-top: 5%;
 }
 
+
+.pdt-10{
+    padding-top: 5vh;
+}
+
 .pdt-20{
     padding: 20vh 0;
 }
 .pdt-40{
     padding: 40vh 0;
 }
-
-
-
-
-/*
-*{
-  margin: 0;
-  padding: 0;
-  boz-sizing: border-box;
-  font-family: "Open Sans", sans-serif
-}*/
-
 
 /*-----Clases generales---------*/
 
@@ -58,6 +51,10 @@ body{
 .cGrisOscuro {
     Background-color: #131313;
 }
+
+.white{
+    background-color: white;
+}
 /*Grises*/
 
 
@@ -75,41 +72,21 @@ body{
 
 /*Azules*/
 
-.color1 {
-    background-color: #101C24;
-    /*Casi negro*/
-}
-
-.color2 {
-    background-color: #292B2A;
-    /*Gris oscuro*/
-}
-
-.color3 {
-    background-color: #1F333D;
-    /*Azul oscuro*/
-}
-
-.color4 {
-    background-color: #384651;
-    /*AzulGrisaceo oscuro*/
-}
-
-.color5 {
-    background-color: #6A7E85;
-    /*AzulGrisaceo claro*/
-}
-
-
 /*----Fin Paleta de colores----*/
 
 
+/*----Inicio  NavBar Desktop--*/
+.navBarDesktop{
+    opacity: 0.6;
+    color: #101C24;
+    font-size: 3vw;
+}
+/*----Fin  NavBar Desktop--*/
 
 
 /*----Inicio Side Bar--*/
-
 .side-nav {
-    background-color: #000C2F;
+    background-color: #131313;
 }
 
 .side-nav li>a {
@@ -120,17 +97,24 @@ body{
     color: #101C24;
     background-color: #fff;
 }
-
-
 /*----Fin  Side Bar--*/
 
+/*----Inicio Nav Bar Mobile--*/
+
+.navMobile{
+    background-color: #777777;
+    opacity: 0.6;
+}
+/*----Fin Nav Bar Mobile--*/
 
 
 /*-------Inicio Parallax handmade--------*/
 .parallax { 
     /* La imagen a usar */
-    background-image: url("../assets/img/imgParallax/lapLibreta2Med.jpg");
-    height: 100%; 
+    background-image: url("../assets/img/imgParallax/imgHome.jpg");
+    height: 100%;
+    opacity: 0.8;
+    
     
     /* efecto scroll*/
     background-attachment: fixed;
@@ -138,29 +122,23 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.btnContainer{
+    /*position: relative;*/
+}
+.parallax button{
+   
+    padding: 3vh 5vh;
+    background: transparent;
+    color: #101C24;
+    font-size: 4vh;
+    border-color: #101C24;
+}
 /*-------Fin Parallax handmade--------*/
 
 
 
 /*------Inicio typing about me----*/
-
-.text-js {
-    opacity: 0;
-}
-
-/*
-.cursor {
-    display: block;
-    position: absolute;
-    height: 10%;
-    top: 1vh;
-    right: -5px;
-    width: 2px;
-    background-color: white;
-    z-index: 1;
-    animation: flash 0.5s none infinite alternate;
-}*/
-
 @keyframes flash {
     0% {
         opacity: 1;
@@ -172,11 +150,14 @@ body{
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
 
-/*Text Can be styled just like normal*/
 
 .headline {
+    height: 70%;
     color: whitesmoke;
     text-align: center;
+    padding: 22% 5%;
+
+    
     h1 {
         letter-spacing: 1.6px;
         font-weight: 30;
@@ -185,15 +166,13 @@ body{
 
 .text-js {
     font-size: 6vh;
-    background-color: rgb(0, 0, 0, 0.5);
+    color: #101C24;
 }
-
-
 /*------Fin typing about me----*/
 
 
-/*------Inicio skills----*/
 
+/*------Inicio skills----*/
 #skills {
     color: #b0b4b5;
 }
@@ -220,6 +199,10 @@ body{
     margin-bottom: 2.5%;
 }
 
+.collection-item{
+    background-color: transparent !important;
+    color:#131313;
+}
 
 /*------Fin skills----*/
 
