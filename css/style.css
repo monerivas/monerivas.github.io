@@ -27,6 +27,9 @@ body{
 .pdt-5{
     padding-top: 5vh;
 }
+.pdt-10{
+    padding-top: 10vh;
+}
 
 .pdt-20{
     padding: 20vh 0;
@@ -113,12 +116,12 @@ body{
 
 /*-------Inicio seccion home--------*/
 /*-------Inicio Parallax handmade--------*/
-.parallax { 
+.parallax {
     /* La imagen a usar */
     background-image: url("../assets/img/imgParallax/imgHome.jpg");
     height: 100%;
     opacity: 0.8;
-    
+
     /* efecto scroll*/
     background-attachment: fixed;
     background-position: center;
@@ -148,7 +151,7 @@ body{
     text-align: center;
     padding: 22% 5%;
 
-    
+
     h1 {
         letter-spacing: 1.6px;
         font-weight: 30;
@@ -187,45 +190,45 @@ body{
     width: 50vh;
     margin-top: 5vh;
     border-radius: 20px;
-    
-    
+
+
 }
-/*-----Fin Sobremi-----*/ 
+/*-----Fin Sobremi-----*/
 
 /*------Inicio skills----*/
 
 /*-------Inicio Parallax2 handmade--------*/
-.parallax2 { 
+.parallax2 {
     /* La imagen a usar */
     background-image: url("../assets/img/imgParallax/fondoBlanco.jpg");
     height: 100%;
     opacity: 0.8;
-    
-    
+
+
     /* efecto scroll*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax3 { 
+.parallax3 {
     /* La imagen a usar */
     background-image: url("../assets/img/imgParallax/espiralGrisMedio.jpg");
     height: 100%;
     opacity: 0.8;
-    
+
     /* efecto scroll*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-.parallax4 { 
+.parallax4 {
     /* La imagen a usar */
     background-image: url("../assets/img/imgParallax/hansOnLap.jpg");
     height: 100%;
     opacity: 0.8;
-    
+
     /* efecto scroll*/
     background-attachment: fixed;
     background-position: center;
@@ -239,6 +242,7 @@ body{
 #skills {
     color: #131313;
     background-color: #777777;
+    padding-top:
 }
 
 #skills h3 {
@@ -253,7 +257,7 @@ body{
     font-size: 2vh;
 }
 .habilidadesBlandas h3{
-    color: #DADBDB; 
+    color: #DADBDB;
 }
 .habilidadesBlandas .row{
     margin-top: 7vh;
@@ -292,4 +296,3 @@ body{
 
 /*------Inicio Footer----*/
 /*------Fin Footer-------*/
-
