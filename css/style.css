@@ -1,12 +1,14 @@
 /*-----Clases generales---------*/
 
 body{
-    background-color: #DADBDB;
+    background-color: #131313;
     height: 100%;
 
 }
 .seccionContenido {
     height: 100vh;
+    padding-top: 8vh;
+    margin-top: 0;
 }
 
 .fixed {
@@ -22,7 +24,7 @@ body{
 }
 
 
-.pdt-10{
+.pdt-5{
     padding-top: 5vh;
 }
 
@@ -108,6 +110,8 @@ body{
 /*----Fin Nav Bar Mobile--*/
 
 
+
+/*-------Inicio seccion home--------*/
 /*-------Inicio Parallax handmade--------*/
 .parallax { 
     /* La imagen a usar */
@@ -115,24 +119,11 @@ body{
     height: 100%;
     opacity: 0.8;
     
-    
     /* efecto scroll*/
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-}
-
-.btnContainer{
-    /*position: relative;*/
-}
-.parallax button{
-   
-    padding: 3vh 5vh;
-    background: transparent;
-    color: #101C24;
-    font-size: 4vh;
-    border-color: #101C24;
 }
 /*-------Fin Parallax handmade--------*/
 
@@ -153,7 +144,7 @@ body{
 
 .headline {
     height: 70%;
-    color: whitesmoke;
+    color: #DADBDB;
     text-align: center;
     padding: 22% 5%;
 
@@ -166,15 +157,88 @@ body{
 
 .text-js {
     font-size: 6vh;
-    color: #101C24;
+    color: #131313;
 }
 /*------Fin typing about me----*/
 
+/*-------Fin seccion home--------*/
 
+
+/*-----Inicio Sobremi-----*/
+#about-me{
+    padding: 17vh 9vh;;
+    color:#DADBDB;
+    background-color: #131313;
+}
+#about-me div p{
+    padding-top: 7vh;
+}
+
+#about-me div button{
+    margin-top: 5vh;
+    padding: 2vh 4vh;
+    background: transparent;
+    color: #DADBDB;
+    font-size: 3vh;
+    border-color: #777777;
+}
+
+.miFoto{
+    width: 50vh;
+    margin-top: 5vh;
+    border-radius: 20px;
+    
+    
+}
+/*-----Fin Sobremi-----*/ 
 
 /*------Inicio skills----*/
+
+/*-------Inicio Parallax2 handmade--------*/
+.parallax2 { 
+    /* La imagen a usar */
+    background-image: url("../assets/img/imgParallax/fondoBlanco.jpg");
+    height: 100%;
+    opacity: 0.8;
+    
+    
+    /* efecto scroll*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax3 { 
+    /* La imagen a usar */
+    background-image: url("../assets/img/imgParallax/espiralGrisMedio.jpg");
+    height: 100%;
+    opacity: 0.8;
+    
+    /* efecto scroll*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.parallax4 { 
+    /* La imagen a usar */
+    background-image: url("../assets/img/imgParallax/hansOnLap.jpg");
+    height: 100%;
+    opacity: 0.8;
+    
+    /* efecto scroll*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+
+/*-------Fin Parallax handmade--------*/
 #skills {
-    color: #b0b4b5;
+    color: #131313;
+    background-color: #777777;
 }
 
 #skills h3 {
@@ -188,10 +252,13 @@ body{
 #skills h5 {
     font-size: 2vh;
 }
-
-.habilidadesBlandas div {
-    margin-top: 2.5%;
-    margin-bottom: 2.5%;
+.habilidadesBlandas h3{
+    color: #DADBDB; 
+}
+.habilidadesBlandas .row{
+    margin-top: 7vh;
+    padding: 7vh 0;
+    color: #DADBDB;
 }
 
 .habilidadesTecnicas div {
@@ -209,6 +276,12 @@ body{
 
 /*------Inicio proyectos----*/
 
+
+#projects{
+  padding-top: 7vh;
+    background-color: #DADBDB;
+     color: #DADBDB;
+}
 .imgProyecto {
     height: 62vh;
 }
